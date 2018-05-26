@@ -1,28 +1,5 @@
 import React from 'react'
-
-const NonCitrus = () => {
-  return (
-    <div>
-      <h1>Non Citrus</h1>
-    </div>
-  )
-}
-
-const Citrus = () => {
-  return (
-    <div>
-      <h1>Citrus</h1>
-    </div>
-  )
-}
-
-const Vegetables = () => {
-  return (
-    <div>
-      <h1>Vegetables</h1>
-    </div>
-  )
-}
+import { Citrus, NonCitrus, Vegetables } from './background.js'
 
 class Fruits extends React.Component {
   constructor(props) {
