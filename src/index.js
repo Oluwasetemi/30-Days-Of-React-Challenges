@@ -20,6 +20,6 @@ const App = () => (
   <div>
     <Day15 />
   </div>
-);
+)
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById("root"))
