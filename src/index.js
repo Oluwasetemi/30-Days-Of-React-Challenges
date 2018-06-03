@@ -16,11 +16,12 @@ import { render } from "react-dom"
 // import Day14 from './Day14'
 // import Day15 from './Day15'
 // import Day16 from './Day16'
-import Day17 from './Day17'
+// import Day17 from './Day17'
+import Day18 from './Day18'
 
 const App = () => (
   <div>
-    <Day17 quantity={100} />
+    <Day18 />
   </div>
 )
 
