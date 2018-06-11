@@ -25,11 +25,12 @@ import { render } from "react-dom"
 // import Day23 from './Day23'
 // import Day24 from './Day24'
 // import Day25 from './Day25'
-import Day26 from './Day26'
+// import Day26 from './Day26'
+import Day27 from './Day27'
 
 const App = () => (
   <div>
-    <Day26 />
+    <Day27 />
   </div>
 )
 

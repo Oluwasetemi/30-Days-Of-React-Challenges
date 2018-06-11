@@ -26,8 +26,9 @@ export default class MyComponent extends React.Component {
           `
       }}>
         {/* change code below this line */}
-        <button onClick={this.addItem} style={{
-          padding: '10px'
+        <button onClick={this.addItem} 
+          style={{
+            padding: '10px'
         }}>Click Me -></button>
         { /* change code above this line */}
         <h1>Current Item Count: {this.state.itemCount}</h1>
