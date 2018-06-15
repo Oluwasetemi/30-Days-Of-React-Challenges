@@ -14,11 +14,13 @@ export default class MyApp extends React.Component {
     });
   }
   render() {
+    const {inputValue} = this.state
     return (
       <div>
         <h2>Pass a Callback as Props</h2>
         { /* change code below this line */}
-
+        <GetInput input={inputValue} handleChange={this.handleChange} />
+        <RenderInput input={inputValue} />
         { /* change code above this line */}
       </div>
     );
