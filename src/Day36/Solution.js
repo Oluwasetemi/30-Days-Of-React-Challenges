@@ -7,7 +7,10 @@ class OnlyEvens extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
     console.log('Should I update?');
     // change code below this line
-    return true;
+    if (nextProps.value % 2 === 0) {
+      return true
+    }
+    return false
     // change code above this line
   }
   componentWillReceiveProps(nextProps) {
@@ -38,6 +41,7 @@ export default class Controller extends React.Component {
     return (
       <div>
         <h2>Optimize Re-Renders with shouldComponentUpdate</h2>
+        <p>The value shout render only if the value of the next prop is even!</p>
         <button onClick={this.addValue}>Add</button>
         <OnlyEvens value={this.state.value} />
       </div>
